@@ -28,8 +28,10 @@
                         <viewLayoutGuide key="safeArea" id="F4i-HN-7WX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="0es-TV-RWw" firstAttribute="height" secondItem="1TA-Re-wTJ" secondAttribute="height" multiplier="1.05382" id="LlB-C0-jLu"/>
-                            <constraint firstItem="0es-TV-RWw" firstAttribute="width" secondItem="1TA-Re-wTJ" secondAttribute="width" id="oEj-EG-4Gx"/>
+                            <constraint firstItem="1TA-Re-wTJ" firstAttribute="height" secondItem="0es-TV-RWw" secondAttribute="height" multiplier="0.948925" id="0bR-ZD-Xm5"/>
+                            <constraint firstItem="0es-TV-RWw" firstAttribute="width" secondItem="p9r-vK-F9S" secondAttribute="width" multiplier="0.918575" id="Ohw-eb-3jY"/>
+                            <constraint firstItem="1TA-Re-wTJ" firstAttribute="width" secondItem="0es-TV-RWw" secondAttribute="width" id="hV9-se-4Zm"/>
+                            <constraint firstItem="0es-TV-RWw" firstAttribute="height" secondItem="p9r-vK-F9S" secondAttribute="height" multiplier="0.43662" id="qRV-op-Axi"/>
                         </constraints>
                     </view>
                 </viewController>
