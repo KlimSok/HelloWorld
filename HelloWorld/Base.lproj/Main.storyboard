@@ -16,11 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1TA-Re-wTJ">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1TA-Re-wTJ">
                                 <rect key="frame" x="16" y="59" width="361" height="353"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0es-TV-RWw">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0es-TV-RWw">
                                 <rect key="frame" x="16" y="446" width="361" height="372"/>
                                 <color key="backgroundColor" systemColor="systemBrownColor"/>
                             </view>
@@ -29,9 +29,16 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="1TA-Re-wTJ" firstAttribute="height" secondItem="0es-TV-RWw" secondAttribute="height" multiplier="0.948925" id="0bR-ZD-Xm5"/>
-                            <constraint firstItem="0es-TV-RWw" firstAttribute="width" secondItem="p9r-vK-F9S" secondAttribute="width" multiplier="0.918575" id="Ohw-eb-3jY"/>
+                            <constraint firstItem="1TA-Re-wTJ" firstAttribute="top" secondItem="F4i-HN-7WX" secondAttribute="top" id="2sR-bp-8BN"/>
+                            <constraint firstItem="0es-TV-RWw" firstAttribute="top" secondItem="1TA-Re-wTJ" secondAttribute="bottom" constant="34" id="F0L-3H-WsD"/>
+                            <constraint firstItem="0es-TV-RWw" firstAttribute="bottom" secondItem="F4i-HN-7WX" secondAttribute="bottom" id="JMR-qP-2zd"/>
+                            <constraint firstItem="F4i-HN-7WX" firstAttribute="trailing" secondItem="0es-TV-RWw" secondAttribute="trailing" constant="16" id="JjM-fC-02X"/>
+                            <constraint firstItem="0es-TV-RWw" firstAttribute="leading" secondItem="F4i-HN-7WX" secondAttribute="leading" constant="16" id="MU2-GG-NLP"/>
+                            <constraint firstItem="1TA-Re-wTJ" firstAttribute="leading" secondItem="F4i-HN-7WX" secondAttribute="leading" constant="16" id="Q2R-P8-cM3"/>
+                            <constraint firstItem="0es-TV-RWw" firstAttribute="height" secondItem="p9r-vK-F9S" secondAttribute="height" multiplier="0.43662" id="aHZ-Iy-Xca"/>
                             <constraint firstItem="1TA-Re-wTJ" firstAttribute="width" secondItem="0es-TV-RWw" secondAttribute="width" id="hV9-se-4Zm"/>
-                            <constraint firstItem="0es-TV-RWw" firstAttribute="height" secondItem="p9r-vK-F9S" secondAttribute="height" multiplier="0.43662" id="qRV-op-Axi"/>
+                            <constraint firstItem="1TA-Re-wTJ" firstAttribute="trailing" secondItem="p9r-vK-F9S" secondAttribute="trailingMargin" id="lMt-7M-Fie"/>
+                            <constraint firstItem="0es-TV-RWw" firstAttribute="width" secondItem="p9r-vK-F9S" secondAttribute="width" multiplier="0.918575" id="wcb-70-g0n"/>
                         </constraints>
                     </view>
                 </viewController>
