@@ -16,35 +16,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1TA-Re-wTJ">
-                                <rect key="frame" x="16" y="59" width="361" height="353"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QzJ-pG-NDQ">
+                                <rect key="frame" x="16" y="452" width="361" height="366"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0es-TV-RWw">
-                                <rect key="frame" x="16" y="446" width="361" height="372"/>
+                                <rect key="frame" x="16" y="59" width="361" height="366"/>
                                 <color key="backgroundColor" systemColor="systemBrownColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="F4i-HN-7WX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="1TA-Re-wTJ" firstAttribute="height" secondItem="0es-TV-RWw" secondAttribute="height" multiplier="0.948925" id="0bR-ZD-Xm5"/>
-                            <constraint firstItem="1TA-Re-wTJ" firstAttribute="top" secondItem="F4i-HN-7WX" secondAttribute="top" id="2sR-bp-8BN"/>
-                            <constraint firstItem="0es-TV-RWw" firstAttribute="top" secondItem="1TA-Re-wTJ" secondAttribute="bottom" constant="34" id="F0L-3H-WsD"/>
-                            <constraint firstItem="0es-TV-RWw" firstAttribute="bottom" secondItem="F4i-HN-7WX" secondAttribute="bottom" id="JMR-qP-2zd"/>
-                            <constraint firstItem="F4i-HN-7WX" firstAttribute="trailing" secondItem="0es-TV-RWw" secondAttribute="trailing" constant="16" id="JjM-fC-02X"/>
-                            <constraint firstItem="0es-TV-RWw" firstAttribute="leading" secondItem="F4i-HN-7WX" secondAttribute="leading" constant="16" id="MU2-GG-NLP"/>
-                            <constraint firstItem="1TA-Re-wTJ" firstAttribute="leading" secondItem="F4i-HN-7WX" secondAttribute="leading" constant="16" id="Q2R-P8-cM3"/>
-                            <constraint firstItem="0es-TV-RWw" firstAttribute="height" secondItem="p9r-vK-F9S" secondAttribute="height" multiplier="0.43662" id="aHZ-Iy-Xca"/>
-                            <constraint firstItem="1TA-Re-wTJ" firstAttribute="width" secondItem="0es-TV-RWw" secondAttribute="width" id="hV9-se-4Zm"/>
-                            <constraint firstItem="1TA-Re-wTJ" firstAttribute="trailing" secondItem="p9r-vK-F9S" secondAttribute="trailingMargin" id="lMt-7M-Fie"/>
-                            <constraint firstItem="0es-TV-RWw" firstAttribute="width" secondItem="p9r-vK-F9S" secondAttribute="width" multiplier="0.918575" id="wcb-70-g0n"/>
+                            <constraint firstItem="QzJ-pG-NDQ" firstAttribute="top" secondItem="0es-TV-RWw" secondAttribute="bottom" constant="26.999999999999972" id="BNI-FB-ljd"/>
+                            <constraint firstItem="QzJ-pG-NDQ" firstAttribute="bottom" secondItem="F4i-HN-7WX" secondAttribute="bottom" id="K4k-wV-EDa"/>
+                            <constraint firstItem="QzJ-pG-NDQ" firstAttribute="width" secondItem="0es-TV-RWw" secondAttribute="width" id="O3t-E7-BmS"/>
+                            <constraint firstItem="QzJ-pG-NDQ" firstAttribute="height" secondItem="0es-TV-RWw" secondAttribute="height" id="ZdI-f5-qeT"/>
+                            <constraint firstItem="0es-TV-RWw" firstAttribute="top" secondItem="F4i-HN-7WX" secondAttribute="top" id="jE3-c6-eb3"/>
+                            <constraint firstItem="QzJ-pG-NDQ" firstAttribute="leading" secondItem="F4i-HN-7WX" secondAttribute="leading" constant="16" id="muz-Yn-Ygs"/>
+                            <constraint firstItem="F4i-HN-7WX" firstAttribute="trailing" secondItem="0es-TV-RWw" secondAttribute="trailing" constant="16" id="oct-9i-qeL"/>
+                            <constraint firstItem="0es-TV-RWw" firstAttribute="leading" secondItem="F4i-HN-7WX" secondAttribute="leading" constant="16" id="pIk-NW-gB9"/>
+                            <constraint firstItem="F4i-HN-7WX" firstAttribute="trailing" secondItem="QzJ-pG-NDQ" secondAttribute="trailing" constant="16" id="tdC-KG-00h"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116.79389312977099" y="-525.35211267605632"/>
+            <point key="canvasLocation" x="353.43511450381681" y="-534.50704225352115"/>
         </scene>
     </scenes>
     <resources>
