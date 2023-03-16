@@ -17,32 +17,31 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QzJ-pG-NDQ">
-                                <rect key="frame" x="16" y="452" width="361" height="366"/>
+                                <rect key="frame" x="16" y="448.66666666666674" width="361" height="349.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0es-TV-RWw">
-                                <rect key="frame" x="16" y="59" width="361" height="366"/>
+                                <rect key="frame" x="16" y="79" width="361" height="349.66666666666669"/>
                                 <color key="backgroundColor" systemColor="systemBrownColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="F4i-HN-7WX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="QzJ-pG-NDQ" firstAttribute="top" secondItem="0es-TV-RWw" secondAttribute="bottom" constant="26.999999999999972" id="BNI-FB-ljd"/>
-                            <constraint firstItem="QzJ-pG-NDQ" firstAttribute="bottom" secondItem="F4i-HN-7WX" secondAttribute="bottom" id="K4k-wV-EDa"/>
-                            <constraint firstItem="QzJ-pG-NDQ" firstAttribute="width" secondItem="0es-TV-RWw" secondAttribute="width" id="O3t-E7-BmS"/>
-                            <constraint firstItem="QzJ-pG-NDQ" firstAttribute="height" secondItem="0es-TV-RWw" secondAttribute="height" id="ZdI-f5-qeT"/>
-                            <constraint firstItem="0es-TV-RWw" firstAttribute="top" secondItem="F4i-HN-7WX" secondAttribute="top" id="jE3-c6-eb3"/>
-                            <constraint firstItem="QzJ-pG-NDQ" firstAttribute="leading" secondItem="F4i-HN-7WX" secondAttribute="leading" constant="16" id="muz-Yn-Ygs"/>
-                            <constraint firstItem="F4i-HN-7WX" firstAttribute="trailing" secondItem="0es-TV-RWw" secondAttribute="trailing" constant="16" id="oct-9i-qeL"/>
-                            <constraint firstItem="0es-TV-RWw" firstAttribute="leading" secondItem="F4i-HN-7WX" secondAttribute="leading" constant="16" id="pIk-NW-gB9"/>
-                            <constraint firstItem="F4i-HN-7WX" firstAttribute="trailing" secondItem="QzJ-pG-NDQ" secondAttribute="trailing" constant="16" id="tdC-KG-00h"/>
+                            <constraint firstItem="QzJ-pG-NDQ" firstAttribute="leading" secondItem="F4i-HN-7WX" secondAttribute="leading" constant="16" id="3gT-tR-FGH"/>
+                            <constraint firstItem="QzJ-pG-NDQ" firstAttribute="height" secondItem="0es-TV-RWw" secondAttribute="height" id="DDP-nM-0Pp"/>
+                            <constraint firstItem="0es-TV-RWw" firstAttribute="top" secondItem="F4i-HN-7WX" secondAttribute="top" constant="20" id="Sm7-7u-dgF"/>
+                            <constraint firstItem="F4i-HN-7WX" firstAttribute="trailing" secondItem="QzJ-pG-NDQ" secondAttribute="trailing" constant="16" id="bKJ-px-FTa"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="QzJ-pG-NDQ" secondAttribute="bottom" constant="20" id="bcr-oy-oZZ"/>
+                            <constraint firstItem="QzJ-pG-NDQ" firstAttribute="top" secondItem="0es-TV-RWw" secondAttribute="bottom" constant="20" id="k67-OR-JxA"/>
+                            <constraint firstItem="0es-TV-RWw" firstAttribute="leading" secondItem="F4i-HN-7WX" secondAttribute="leading" constant="16" id="sFI-j9-4N3"/>
+                            <constraint firstItem="F4i-HN-7WX" firstAttribute="trailing" secondItem="0es-TV-RWw" secondAttribute="trailing" constant="16" id="wfu-oL-F2C"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="353.43511450381681" y="-534.50704225352115"/>
+            <point key="canvasLocation" x="633" y="-491"/>
         </scene>
     </scenes>
     <resources>
